@@ -1,0 +1,138 @@
+body {
+  margin: 3px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.hero {
+  background-image: url(images/Hero.jpg);
+  height: 450px;
+  width: 100%;
+  background-size: cover;
+  padding: 100px 0;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-size: 72px;
+  color: #f4d58d;
+  text-align: center;
+  margin-top: 110px;
+  text-shadow: 1px 1px 4px #000;
+}
+
+h2 {
+  color: #333333;
+  font-size: 30px;
+}
+
+p {
+  color: #333333;
+  font-size: 17px;
+}
+
+.middle {
+  background-color: #f4d58d;
+  text-align: center;
+  margin-top: 0;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.highlights {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+#bali-img,
+#yogyakarta-img,
+#jakarta-img {
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.city {
+  width: 30%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.profile {
+  display: flex;
+  background-color: #2e8b57;
+  margin-top: 5px;
+  padding: 50px 0;
+  border-bottom: 10px solid #006400;
+}
+
+.guide {
+  display: flex;
+  width: 50%;
+  text-align: center;
+  flex-direction: column;
+  padding-left: 200px;
+  align-items: center;
+}
+
+.guide-title {
+  font-size: 50px;
+  color: #f0ead6;
+}
+
+.guide-desc {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-style: italic;
+  color: #f0ead6;
+}
+
+.guide-sign {
+  font-size: 30px;
+  font-style: italic;
+  color: #f0ead6;
+}
+
+#author-img {
+  width: 300px;
+  height: 500px;
+  background-size: cover;
+  margin-bottom: 10px;
+  margin-left: 150px;
+  border-radius: 0%;
+}
+
+.instrument-sans {
+  font-family: "Instrument Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.instrument-sans-italic {
+  font-family: "Instrument Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  font-variation-settings: "wdth" 100;
+}
+
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inknut-antiqua-regular {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 400;
+  font-style: normal;
+}
