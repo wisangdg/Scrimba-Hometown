@@ -9,15 +9,15 @@ body {
   height: 450px;
   width: 100%;
   background-size: cover;
-  padding: 100px 0;
+  padding: 50px 0;
   margin-bottom: 5px;
 }
 
 h1 {
-  font-size: 72px;
+  font-size: 48px;
   color: #f4d58d;
   text-align: center;
-  margin-top: 110px;
+  margin-top: 80px;
   text-shadow: 1px 1px 4px #000;
 }
 
@@ -41,7 +41,7 @@ p {
 
 .highlights {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   width: 100%;
@@ -60,26 +60,29 @@ p {
 }
 
 .city {
-  width: 30%;
+  width: 90%;
   text-align: center;
   box-sizing: border-box;
+  margin-bottom: 30px;
 }
 
 .profile {
   display: flex;
+  flex-direction: column;
   background-color: #2e8b57;
   margin-top: 5px;
-  padding: 50px 0;
+  padding: 30px 0;
   border-bottom: 10px solid #006400;
 }
 
 .guide {
   display: flex;
-  width: 50%;
+  width: 90%;
   text-align: center;
   flex-direction: column;
-  padding-left: 200px;
+  padding-left: 0;
   align-items: center;
+  margin: 0 auto;
 }
 
 .guide-title {
@@ -101,12 +104,13 @@ p {
 }
 
 #author-img {
-  width: 300px;
-  height: 500px;
+  width: 80%;
+  height: auto;
   background-size: cover;
-  margin-bottom: 10px;
-  margin-left: 150px;
+  margin-bottom: 20px;
+  margin-left: 0;
   border-radius: 0%;
+  max-width: 300px;
 }
 
 .instrument-sans {
@@ -135,4 +139,41 @@ p {
   font-family: "Inknut Antiqua", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding: 100px 0;
+  }
+
+  h1 {
+    font-size: 72px;
+    margin-top: 110px;
+  }
+
+  .highlights {
+    flex-direction: row;
+  }
+
+  .city {
+    width: 30%;
+    margin-bottom: 0;
+  }
+
+  .profile {
+    flex-direction: row;
+    padding: 50px 0;
+  }
+
+  .guide {
+    width: 50%;
+    padding-left: 200px;
+  }
+
+  #author-img {
+    width: 300px;
+    height: 500px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+  }
 }
